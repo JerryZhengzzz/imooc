@@ -1,0 +1,93 @@
+/*整体布局*/
+#line{
+    padding: 32px;
+}
+
+.line-box{
+    height: 446px;
+}
+
+.line-box .title-pic{
+    height: 36px;
+}
+
+.line-box .course-line{
+    margin-top: 30px;
+    height: 416px;
+}
+
+/*标题和分类*/
+.line-box .title-pic img{
+    width: 162px;
+}
+
+.line-box .title-pic a{
+    float: right;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.line-box .title-pic .all-btn:hover{
+    color: #E76060;
+}
+
+
+
+
+/*课程列表*/
+.line-box ul{
+    width: 1176px;
+    cursor: pointer;
+}
+
+.line-box .course-line li{
+    position: relative;
+    float: left;
+    width: 368px;
+    height: 178px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+    transition: .2s;
+}
+
+.line-box .course-line li:hover{
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.line-box .course-line img{
+    width: 368px;
+    border-radius: 8px 8px 0 0;
+}
+
+.line-box .course-line .desc{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #545c63;
+}
+
+.line-box .course-line .course-num{
+    position: absolute;
+    display: inline-block;
+    font-size: 12px;
+    left: 10px;
+    bottom: 10px;
+}
+
+.line-box .course-line .favr{
+    position: absolute;
+    display: inline-block;
+    font-size: 12px;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+
+
+
+
+
